@@ -31,7 +31,7 @@ The backend loads the pre-trained model `sonar_model.pkl` to make predictions.
 1. Navigate to the `server` directory.
 2. Install dependencies (preferably in a virtual environment):
    ```
-   pip install -r requirements.txt
+   pip install django djangorestframework scikit-learn pandas joblib
    ```
 3. Run the Django development server:
    ```
